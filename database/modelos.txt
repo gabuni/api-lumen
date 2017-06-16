@@ -1,0 +1,26 @@
+Profesor
+	#id
+	- nombre
+	- direccion
+	- telefono
+	- profesion
+
+	=> Un profesor dicta uno o más cursos
+-------------------------------------------------
+Estudiante
+	#id
+	- nombre
+	- direccion
+	- telefono
+	- carrera
+
+	=> Un estudiante toma uno o más cursos
+-------------------------------------------------
+Curso
+	#id
+	- titulo
+	- descripcion
+	- valor
+
+	=> Un curso es dictado por un profesor (uno a muchos)
+	=> Un curso es tomado por uno o más estudiantes (muchos a muchos)

@@ -23,4 +23,7 @@ Curso
 	- valor
 
 	=> Un curso es dictado por un profesor (uno a muchos)
-	=> Un curso es tomado por uno o más estudiantes (muchos a muchos)
+	=> Un curso es tomado por uno o más estudiantes (muchos a muchos) 
+
+
+tabla pivote (con cursos y estudiantes)
